@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+
+
+@font-face {
+    font-family: 'Acid Grotesk';
+    src: url('/src/assets/font/AcidGrotesk-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Acid Grotesk';
+    src: url('/src/assets/font/AcidGrotesk-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@theme {
+  --color-custom-yellow: #FFF12D;
+  --color-custom-orange: #FA6921;
+  --color-custom-green: #3AFFAC;
+  --color-custom-black: #151515;
+  --color-custom-gray:#383838;
+  --font-acid:  "Acid Grotesk", sans-serif; 
+}
