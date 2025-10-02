@@ -63,13 +63,13 @@ export default function Staking() {
           <div className="relative h-[30px] bg-gray-200 rounded-sm overflow-hidden">
             {/* Orange filled part */}
             <div 
-              className="absolute left-0 top-0 h-full bg-custom-orange transition-all duration-200"
+              className="absolute left-0 top-0 h-full bg-custom-orange transition-all duration-70"
               style={{ width: `${sliderPercentage}%` }}
             />
             
             {/* Slider thumb with grid icon */}
             <div 
-              className="absolute top-0 h-full flex items-center transition-all duration-200"
+              className="absolute top-0 h-full flex items-center transition-all duration-70"
               style={{ left: `${sliderPercentage}%`, transform: 'translateX(-50%)' }}
             >
           

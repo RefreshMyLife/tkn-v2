@@ -29,7 +29,7 @@ export const ContractSection = ({ contracts, setContracts, isSearching }: Contra
     <div className="relative pl-1 sm:pl-10 mb-10">
       <ListMarker number={3} />
 
-      <div className="flex items-center justify-between border-transparent rounded-sm mb-4 bg-white p-4">
+      <div className="flex items-center justify-between border-transparent rounded-sm mb-4 bg-white px-6 pb-5 pt-4">
         <h2 className={`text-lg sm:text-xl font-semibold ${isSearching ? 'text-black/50': 'text-black'}`}>Contracts</h2>
         <label className="flex items-center gap-2 cursor-pointer">
           <input type="checkbox" className="w-4 h-4 accent-black rounded-sm border-gray-300 hover:border-black" />
