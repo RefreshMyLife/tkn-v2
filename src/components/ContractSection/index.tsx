@@ -6,7 +6,7 @@ import { ListMarker } from '../ListMarker'
 
 type ContractSectionProps = {
   contracts: Contract[]
-  isSearching: boolean
+  isSearching?: boolean
   setContracts: React.Dispatch<React.SetStateAction<Contract[]>>
 }
 

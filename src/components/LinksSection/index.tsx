@@ -6,7 +6,7 @@ import { SearchingIndicator } from '../SearchingIndicator';
 
 type LinksSectionProps = {
   links: string[];
-  isSearching: boolean;
+  isSearching?: boolean;
   setLinks: React.Dispatch<React.SetStateAction<string[]>>;
 };
 
